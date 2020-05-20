@@ -1,0 +1,332 @@
+@charset "utf-8";
+/* 헤더영역시작 */
+#header{}
+/* 헤더_tnb시작 */
+div.header_tnb{background-color:#083ea2;}
+div.header_tnb>nav{width: 1200px;height: 40px;background-color: #083ea2;margin: 0 auto;}
+div.header_tnb>nav>ul.menu1{float: left;margin: 0 auto;}
+div.header_tnb>nav>ul.menu1>li{float: left;width: 120px;border: 1px solid #ccc;line-height: 36px;text-align: center;border-top: 0 none; border-bottom: 0 none;margin-left: ;}
+
+div.header_tnb>nav>ul.menu1>li>a{color: white;font-weight: 700;font-size: 1em;}
+div.header_tnb>nav>ul.menu1>li:hover{background-color: #0f0f3b;}
+
+div.header_tnb>nav>ul.menu2{float: right}
+div.header_tnb>nav>ul.menu2>li{float: left;width:90px;line-height: 40px;}
+div.header_tnb>nav>ul.menu2>li>a{text-align: center; font-weight: 200;font-size: 15px; color: #fff;}
+div.header_tnb>nav>ul.menu2>li:nth-child(1){padding-left:29px;}
+div.header_tnb>nav>ul.menu2>li:nth-child(4){padding-left: 25px;}
+div.header_tnb>nav>ul.menu2>li:nth-child(5){padding-left: 26px;}
+
+div.header_tnb>nav>ul.menu2>li>div.pules{width: 20px;height: 20px; font-size: 16px;float: left; 
+	color: #000;line-height: 20px; background-color: #fff; font-weight: bold;margin-top: 12px ;text-align: center;margin-left: 15px;}
+div.header_tnb>nav>ul.menu2>li>div.menus{width: 20px;height: 20px;font-size: 16px;float: left;
+	color: #000; line-height:20px; background-color: #fff;font-weight: bold;margin-top:12px; text-align: center; margin-left: 5px;}
+/* 헤더_tnb끝 */
+
+/* 헤더_gnb시작 */
+
+div.header-gnb{width: 1200px;height: 120px;margin: 0 auto;}
+div.header-gnb>h1{ float: left;margin: 0 auto; }
+div.gnbWrap{float: right;}
+nav.gnb_menu{float: left;}
+nav.gnb_menu>ul>li{float: left; padding-top: 50px;;width:120px;margin: 0 auto;margin-right: 15px;}
+nav.gnb_menu>ul>li>a{font-size: 20px; text-align: center;font-weight: 500;}
+nav.gnb_menu>ul>li>a:hover{color: black;font-weight: 600}
+nav.gnb_icon{float: right;}
+nav.gnb_icon>ul{}
+nav.gnb_icon>ul>li{float: left; padding-top: 40px;} 
+/* 헤더_gnb끝 */
+/* 헤더영역끝 */
+
+/* container시작 */
+#container{ height:1300px;width: 100%;
+	background-image: url(../img/bg_dote.png),url(../img/main_bg01.jpg);
+    background-repeat: repeat,no-repeat;
+    background-position: center;}
+
+/*centent1시작*/
+.centent{width: 1200px;height: 260px;margin: 0    auto;}
+.centent>div.text{float: left;width: 60%;margin-left: -200px;padding-top: 95px;}
+.centent>div.text>p.text1{font-size: 45px;color: white;font-weight: 500;}
+.centent>div.text>p.text2{font-size: 62px;color: white;font-weight: 900;}
+
+nav.centent_icon{float: right;width:39%;margin-right: -59px;}
+nav.centent_icon>ul{}
+nav.centent_icon>ul>li{float:left;width: 115px;margin: 0 auto;text-align: center;padding-top: 89px;}
+nav.centent_icon>ul>li:hover img{transform: 0.3s;transform: scale(1.2)}
+nav.centent_icon>ul>li:hover p{transform: 0.3s;transform: scale(1.2);
+margin-top: 15px;}
+
+nav.centent_icon>ul>li>p{font-size:15px;color: white;font-weight: 500}
+/*centent1끝*/
+/*centent2시작*/
+.contant2{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative}
+_.bx-wrapper {
+    -moz-box-shadow: 0 none;
+    -webkit-box-shadow: 0 none;
+    box-shadow: 0 none;
+    border: 0 none;
+    background: none;
+}
+
+.sliders{width: 75%;height: 450px;}
+
+
+
+_div.contant2 div.wrapper div.sliderWrap{
+    margin: 0 auto;
+}
+
+div.slider_pager {
+			position: absolute;
+			width: 100%;
+			bottom: 0;
+			right: 0;
+		}
+.bx-wrapper .bx-pager {
+	top:380px;
+	height: 90px;
+	width: 50%;
+	right: 10px;
+}
+
+div.contant2>ul>li:first-child .bx-wrapper .bx-pager.bx-default-pager a.active{
+    background: #042f71;
+}
+.slider{width: 75%;height: 450px;position: absolute
+}
+
+.btn01{position: absolute;margin-top: -320px;margin-left: 5px;}
+.btn02{position: absolute;margin-top: -320px;margin-left: 840px;}
+
+.txtwrap {
+	padding: 60px;
+	position: absolute;
+	top: 0;
+}
+.txtwrap h2{color: #022e72;
+	font-size: 60px;
+	font-weight: normal;
+	line-height: 64px;
+    margin-left: 20px;}
+.txtwrap span{font-weight: bold;}
+.slider .txtwrap a{display: block;width: 180px;
+    height: 40px;background-color: #00193e;
+    line-height: 40px;font-size: 18px;
+    text-align: center;color:white;margin-top: 30px;
+margin-left: 20px;}
+
+.ct1{position: absolute;width: 25%;height: 450px;margin-top: -450px;margin-left: 900px;}
+.ct1 img{display: block;position: absolute;}
+.ct1 .txtwrap2{position: absolute;padding-left: 30px;
+padding-top: 80px;}
+.ct1 .txtwrap2 h2{font-size: 2.2em;color: white;}
+.ct1 .txtwrap2 span{font-weight: bold;}
+.ct1 .txtwrap2 p{font-size: 16px;font-weight: bold;margin-top: 30px;color: white;}
+.ct1 .txtwrap2  a{display: block;margin-top: 25px;width: 180px;height: 40px;font-size: 18px;text-align: center;
+     background-color: rgba(0, 0, 0, 0.79);color: white;
+line-height: 40px;}
+/*centent2끝*/
+
+/*centent3시작*/
+div.centent3_arlticle{width: 1200px;height: 226px;margin: 0 auto;background-color: aqua;}
+div.section{width: 1200px;height: 226px;margin: 0 auto;background-color: bisque;position: absolute;}
+
+div.section .section1{float: left;width: 25%;background-color: #00163b;height: 226px;}
+div.section1 h3{color: white; padding-left: 25px;padding-top: 15px;font-size: 25px}
+div.section .section1>ul{}
+div.section .section1>ul>li{float: left; margin-left: 27px;margin-top: 30px;}
+div.section .section1>ul>li>p{color: white;margin-top: 12px;line-height: 20px;text-align: center;font-size:15px}
+div.section .section1>ul>li:hover {transform: scale(1.2); }
+
+
+div.section .section2{float: left; width: 25%;background-color: #1651b7;height: 226px;}
+.section2 hr{width: 250px;margin-left: 20px;margin-top: 16px;}
+.section2 h3{color: white;padding-left: 25px;padding-top: 15px;font-size: 25px}
+.section2  ul{}
+.section2  ul>li{text-align:left;list-style:square;margin-left: 20px;color: white;margin-top:15px;font-size: 10px}
+.section2  ul>li>p{font-size:15px;color: white;margin-top: 10px;}
+.section2  ul>li>p>span{font-size: 12px;padding-left:35px}
+.section2  ul>li:nth-child(2) span{padding-left: 7px;}
+
+
+div.section .section3{float: left;width: 25%;height: 226px;background-color: #fff;}
+div.section .section3 h4{font-size: 25px;padding-left: 20px;padding-top: 15px;font-weight: 600;}
+div.section .section3 img{margin-left: 15px;margin-top: 20px;}
+div.section .section3 p{font-size:15px;color:#000;float: right;margin-top: 18px;padding-right: 12px;}
+div.section .section3 div.icon{float: right;padding-right: 20px;}
+
+
+div.section .section4{float: left;width: 25%;height: 226px;}
+div.section .section4:hover h5{top: 0;
+	transition: 0.7s;}
+.section4 h5{display: block;
+	width: 300px;
+	height: 225px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	_font-weight: bold;
+	line-height: 225px;
+	position: absolute;
+	bottom: 0px;
+	background-color: rgba(0,0,0,0.7);
+	top: 100%;}
+
+/*centent3끝*/
+
+/*centent4시작*/
+div.centent4{width: 1200px;height: 228px;margin: 0 auto;}
+div.centent4 div.section-utill{width: 1200px;height: 228px;margin: 0 auto;}
+div.centent4 .section5{width: 25%;height: 228px;background-color: aliceblue;margin-top: -232px;}
+div.centent4 .section5 div.icons{margin-top: 80px;margin-left: 120px;position: absolute;}
+
+div.centent4 .section6{position: relative;width: 75%;height: 228px;margin-top: -228px;margin-left: 300px;}
+
+#sd2 .bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0 none;
+    background: none;
+    position: relative;
+    margin-bottom: 0;
+    padding: 0 none;
+    *zoom: 1 none;
+     ;
+}
+ #sd2 .bx-wrapper .bx-pager.bx-default-pager a {
+    background-color: #083ea2;
+    text-indent:none;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: -210px 5px;
+    outline: 0 none;
+    -moz-border-radius: none;
+    -webkit-border-radius: none;
+    border-radius: none;
+}
+#sd2 .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #b20a0a;}
+.slide2 .txtwrap3{position: absolute;margin-left: 45px;
+    margin-top: -185px;}
+.slide2 .txtwrap3 h2{font-size: 2.3em;color: #ff503f;font-weight: 400}
+.slide2 .txtwrap3 span{font-weight: bold;}
+.slide2 .txtwrap3 a{display: block;width: 150px;height: 40px;background-color:#e82411;font-size: 16px;line-height: 40px;text-align: center;color: white;margin-top: 20px;}
+/*centent4끝*/
+
+
+/*centent5시작*/
+.centent5{width: 1200px;height: 65px;margin: 0 auto;margin-top: 25px;}
+.section_bottom{float: left;width: 1200px;height: 65px;}
+.section7{float: left;width: 25%;height: 62px;background-color: white;}
+.section7 p{line-height: 62px;text-align: center;font-size: 18px;font-weight: 800;}
+.section7 span{margin-left: 15px; font-size: 16px}
+.section8{float: left; width: 855px;height: 62px;background-color: #fff;margin-left: 4px;}
+.section8 .slide3 p{font-size: 15px;color: black;font-weight: bold;line-height: 50px;text-align: center;
+}
+.section9{margin-left: 859px;margin-top: -120px;}
+/*centent5끝*/
+
+/*footer시작*/
+#footer{width: 1200px;height: 165px;margin: 0 auto;}
+#footer div.text1{width: 900px;height: 165px;float: right;}
+#footer h2{font-size: 15px;font-weight:600;line-height: 30px;margin-top: 15px;color: #292929}
+#footer p{font-size:13px;line-height: 22px;margin-top: 10px;color: #191818}
+#footer span{display: block;font-size: 13px;margin-top: 5px;font-weight: bold;color:#2a2a2a }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+	
+
+/*container끝*/
+
+
+
+
+
+
+
+		
+
+
+	
+
+	
+	
+	
+	
+
+
